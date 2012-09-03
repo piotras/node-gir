@@ -8,7 +8,7 @@ gir.init();
 var GLib = gir.load('GLib');
 var GObject = gir.load('GObject');
 
-var gtk = gir.load('Gtk', '3.0');
+var gtk = gir.load('Gtk');
 gtk.init(0);
 
 describe('Structure constructor', function() {
