@@ -2,7 +2,7 @@
 var Gir = require('../gir');
 Gir.init();
 
-var Gtk = Gir.load('Gtk', '3.0');
+var Gtk = Gir.load('Gtk');
 Gtk.init(0);
 
 var GLib = Gir.load('GLib');
