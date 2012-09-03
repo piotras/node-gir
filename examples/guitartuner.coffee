@@ -14,13 +14,15 @@ gst.init 0
 guitarwindow = new gtk.Window
   type: gtk.WindowType.toplevel
   title: "Node.js Guitar Tuner"
-  #  border_width: 100
+  border_width: 100
 
 guitarwindow.on 'destroy', ->
   gtk.mainQuit()
   process.exit()
 
 guitar_box = new gtk.ButtonBox
+  orientation: gtk.Orientation.vertical
+  spacing: 10
 
 playSound = (frequency) ->
   console.log frequency
