@@ -12,7 +12,8 @@ You need GObject Introspection library to be installed. On a Debian-like system 
 
 Then just build node-gir with:
 
-    $ npm install gir
+    $ node-gyp build
+    $ node-gyp install
 
 ## Testing
 
