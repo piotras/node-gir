@@ -11,7 +11,7 @@
                 'src/values.cc',
                 'src/types/object.cc',
                 'src/types/struct.cc',
-                'src/types/function.cc'
+                'src/types/type_function.cc'
             ],
             'conditions': [
                 ['OS=="linux"',
